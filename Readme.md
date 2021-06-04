@@ -30,3 +30,13 @@
   ```
 
 - la Api de los modelos no me quedo muy claro (un poco pesada de manejar)
+
+#### Parte 3
+
+- las aplicaciones de python se pueden modularizar, esto permite que puedas poder un modulo en cualquier proyecto que desees
+
+- si queremos redirecionar a un 404 personalizado lo hacemos con **Http404** en **view.py**?
+
+- cuando utilizamos **templates** en django debemos pone dentro de subcarpetas para no generar conflicto
+
+- no entiendo muy bien la filosofia del acoplamiento en la parte de http404
