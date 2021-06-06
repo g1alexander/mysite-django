@@ -40,3 +40,7 @@
 - cuando utilizamos **templates** en django debemos pone dentro de subcarpetas para no generar conflicto
 
 - no entiendo muy bien la filosofia del acoplamiento en la parte de http404
+
+#### Parte 4
+
+- el sistema de vistas generica permite abstraer los patrones comunes hasta el punto en que ni siquiera es necesario escribir código Python para escribir una aplicación. me agrda :)
