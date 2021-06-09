@@ -44,3 +44,31 @@
 #### Parte 4
 
 - el sistema de vistas generica permite abstraer los patrones comunes hasta el punto en que ni siquiera es necesario escribir código Python para escribir una aplicación. me agrda :)
+
+#### Parte 5
+
+- Hacer pruebas son muy importantes
+
+  - Si quiere ganarse la vida como un programador de Django, ¡Usted debe ser bueno escribiendo pruebas!
+  - Las pruebas ayudan a los equipos a trabajar en conjunto
+  - Las pruebas hacen más atractivo su código
+  - Las pruebas no solo identifican los problemas, los previenen
+  - Las pruebas le ahorrarán tiempo
+
+- Los nombres de los tests deben ser tan largos?
+- que dice esta linea?
+  ```py
+    return now - datetime.timedelta(days=1) <= self.pub_date <= now
+  ```
+- los tests se hacen tsnto el servidor como el cliente
+- el cliente de python **"shell"** es un aliado importante
+  - Django proporciona una prueba Client para simular un usuario interactúando con el código al nivel de la vista (brutal!)
+
+```txt
+Pruebas adicionales¶
+Este tutorial sólo presenta algunos de los temas fundamentales de las pruebas. Hay mucho más que usted puede hacer y una serie de herramientas muy útiles a su disposición para lograr algunas cosas muy interesantes.
+
+Por ejemplo, aunque nuestras pruebas han tratado aquí algo de la lógica interna de un modelo y la forma en que nuestras vistas publican información, usted puede utilizar un framework «en el navegador» como Selenium para probar la forma en que su HTML en realidad se renderiza en un navegador. Estas herramientas le permiten comprobar no sólo el comportamiento de su código Django, sino también, por ejemplo, el de su JavaScript. ¡Es impresionante ver cómo las pruebas ejecutan un navegador y comienzan a interactuar con su sitio como si estuviese siendo operado por un humano! Django incluye LiveServerTestCase para facilitar la integración con herramientas como Selenium.
+
+
+```
