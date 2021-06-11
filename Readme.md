@@ -76,3 +76,10 @@ Por ejemplo, aunque nuestras pruebas han tratado aquí algo de la lógica intern
 #### Parte 6
 
 - todo el css y js que necesitemos en nuestra aplicacion va dentro de un directorio **"static/{nombre_aplicacion}"**
+
+#### Parte 7
+
+- Se puede personalizar todo lo que queramos el sitio Administrativo
+  - Los capos de los formulario
+  - agruparlos
+  - modificar las platillas (html) del panel administrativo
